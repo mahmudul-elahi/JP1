@@ -118,12 +118,82 @@ img {
   Navbar-Section-Start
 ==========================================*/
 .navbar {
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
+    transition: all linear 0.3s;
     padding: 0;
+    z-index: 1000;
+    padding-bottom: 30px;
 }
+
+.navbarScrollEffect {
+    padding-bottom: 0;
+    background: rgba(0, 26, 43, .9);
+    box-shadow: 0px 8px 30px rgb(56 88 214 / 8%);
+}
+
+#navBar button {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#navBar label {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    cursor: pointer;
+    transform: scale(0.5);
+}
+
+#navBar label span {
+    background: #1f3e72;
+    border-radius: 10px;
+    height: 7px;
+    margin: 7px 0;
+    transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+#navBar span:nth-of-type(1) {
+    width: 50%;
+}
+
+span:nth-of-type(2) {
+    width: 100%;
+}
+
+#navBar span:nth-of-type(3) {
+    width: 75%;
+}
+
+#navBar input[type='checkbox'] {
+    display: none;
+}
+
+#navBar input[type='checkbox']:checked~span:nth-of-type(1) {
+    transform-origin: bottom;
+    transform: rotatez(45deg) translate(8px, 0px);
+}
+
+#navBar input[type='checkbox']:checked~span:nth-of-type(2) {
+    transform-origin: top;
+    transform: rotatez(-45deg);
+}
+
+#navBar input[type='checkbox']:checked~span:nth-of-type(3) {
+    transform-origin: bottom;
+    width: 50%;
+    transform: translate(30px, -11px) rotatez(45deg);
+}
+
 
 .navbar-brand {
     padding: 0;
@@ -136,16 +206,18 @@ img {
 }
 
 .navbar ul {
-    gap: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
 }
 
 .navbar ul li a {
     font-size: var(--font-nav);
     color: var(--font-color-white);
     transition: .3s;
-    padding-block: 17px;
+    padding-block: 20px;
     padding-inline: 10px !important;
     position: relative;
+    display: inline-block;
 }
 
 .navbar ul li a::before {

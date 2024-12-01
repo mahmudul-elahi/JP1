@@ -11,12 +11,21 @@
 
 @media only screen and (max-width: 575px) {
 
+    .navbar {
+        padding: 10px;
+        background: rgba(0, 26, 43, .9);
+    }
+
+    .navbar ul li a {
+        padding-block: 10px;
+    }
+
     .faq .image {
         height: 200px;
     }
 
     .navbar-brand {
-        padding: 10px;
+        padding: 0px;
     }
 
     .hero .bg .overlay {
