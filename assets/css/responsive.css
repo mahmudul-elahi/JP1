@@ -13,6 +13,7 @@
 
     .navbar {
         padding: 10px;
+        padding-block: 0px;
         background: rgba(0, 26, 43, .9);
     }
 
