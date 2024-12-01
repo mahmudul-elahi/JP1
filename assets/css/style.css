@@ -476,6 +476,7 @@ img {
 
 .portfolio .portfolio-list {
     position: relative;
+    margin-inline: 10px;
 }
 
 .portfolio .portfolio-list .overlay {
@@ -899,6 +900,7 @@ img {
 
 .business .portfolio-list {
     margin-bottom: 50px;
+    margin-inline: 10px;
 }
 
 .business .portfolio-list .portfolio-image img {
