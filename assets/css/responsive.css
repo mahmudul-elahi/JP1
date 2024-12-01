@@ -10,6 +10,11 @@
 
 
 @media only screen and (max-width: 575px) {
+
+    .faq .image {
+        height: 200px;
+    }
+
     .navbar-brand {
         padding: 10px;
     }
@@ -177,8 +182,613 @@
         margin-top: 20px;
         font-size: var(--font-mobile-nav);
     }
+
+    .route {
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .philosophy .philosophy-text {
+        padding-block: 20px;
+    }
+
+    .philosophy .philosophy-text h2 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .philosophy .philosophy-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .company-profile h2 {
+        padding-bottom: 40px;
+        font-size: var(--font-mobile-h1);
+    }
+
+    .company-profile {
+        padding-block: 30px;
+    }
+
+    .company-profile-list .profile-item .left p,
+    .company-profile-list .profile-item .right p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .access h2 {
+        font-size: var(--font-mobile-h1);
+        padding-block: 20px;
+    }
+
+    .map {
+        height: 200px;
+    }
+
+    .job .job-image {
+        height: 200px;
+    }
+
+    .business {
+        padding-top: 30px;
+    }
+
+    .business .portfolio-list {
+        margin-bottom: 20px;
+        margin-inline: 10px;
+    }
+
+    .business .portfolio-list .portfolio-image {
+        height: 200px;
+    }
+
+    .business .portfolio-list .portfolio-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .business .portfolio-list .portfolio-text a {
+        font-size: var(--font-mobile-nav);
+    }
+
+    .faq .faq-list .faq-item h4 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .faq .faq-list .faq-ans {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .faq .faq-list .faq-ans p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .faq .faq-button .faq-btn-block .btn-custom {
+        flex: 100%;
+    }
+
+    .faq .faq-button {
+        padding-top: 10px;
+    }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767.98px) {}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .faq .image {
+        height: 200px;
+    }
 
-@media only screen and (min-width: 768px) and (max-width: 991.98px) {}
+    .navbar-brand {
+        padding: 10px;
+    }
+
+    .hero .bg .overlay {
+        height: 50vh;
+    }
+
+    .hero .bg .overlay h1 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .hero .bg .overlay p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .hero .bg .overlay .hero-link a.hero-portfolio {
+        font-size: var(--font-mobile-nav);
+    }
+
+    .hero .bg .overlay .hero-link {
+        gap: 20px;
+    }
+
+    .notice .bg-left {
+        padding-block: 35px;
+    }
+
+    .notice .bg-left h2 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .notice .notice-list .notice-item {
+        gap: 20px;
+    }
+
+    .notice .notice-list .notice-item p,
+    .notice .notice-list .notice-item a {
+        font-size: var(--font-mobile-para);
+    }
+
+    .notice .mobile-center {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .notice .notice-list {
+        padding-block: 25px;
+    }
+
+    .greetings {
+        padding: 30px;
+    }
+
+    .greetings .greeting-text h2 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .greetings .greeting-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .description {
+        padding-block: 30px;
+    }
+
+    .description .description-item {
+        padding-top: 30px;
+    }
+
+    .description h2 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .description .description-list .list-text h3 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .description .description-list .list-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .description a {
+        font-variant: var(--font-mobile-nav);
+    }
+
+    .portfolio {
+        padding-block: 30px;
+    }
+
+    .portfolio h2 {
+        font-size: var(--font-mobile-h1);
+        padding-bottom: 30px;
+    }
+
+    .portfolio .portfolio-list {
+        margin-bottom: 20px;
+        margin-inline: 10px;
+    }
+
+    .portfolio .portfolio-list .portfolio-image {
+        height: 160px;
+    }
+
+    .portfolio .portfolio-list .portfolio-text h3 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .portfolio .portfolio-list .portfolio-text h5 {
+        font-size: var(--font-mobile-nav);
+    }
+
+    .portfolio .portfolio-list .portfolio-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .portfolio a {
+        font-size: var(--font-mobile-nav);
+        margin-top: 20px;
+    }
+
+    .job .job-text {
+        padding: 20px;
+    }
+
+    .job .job-text h4 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .job .job-text h5 {
+        font-size: var(--font-mobile-nav);
+    }
+
+    .job .job-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .job a {
+        font-size: var(--font-mobile-nav);
+        margin-top: 20px;
+    }
+
+    .contact h3 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .contact p {
+        font-size: var(--font-mobile-nav);
+    }
+
+    .contact h5 {
+        font-size: 26px;
+        margin-block: 10px;
+    }
+
+    .contact h5 i {
+        font-size: 26px;
+    }
+
+    .contact h6 {
+        font-size: 12px;
+    }
+
+    .contact a {
+        margin-top: 20px;
+        font-size: var(--font-mobile-nav);
+    }
+
+    .route {
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .philosophy .philosophy-text {
+        padding-block: 20px;
+    }
+
+    .philosophy .philosophy-text h2 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .philosophy .philosophy-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .company-profile h2 {
+        padding-bottom: 40px;
+        font-size: var(--font-mobile-h1);
+    }
+
+    .company-profile {
+        padding-block: 30px;
+    }
+
+    .company-profile-list .profile-item .left p,
+    .company-profile-list .profile-item .right p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .access h2 {
+        font-size: var(--font-mobile-h1);
+        padding-block: 20px;
+    }
+
+    .map {
+        height: 200px;
+    }
+
+    .job .job-image {
+        height: 200px;
+    }
+
+    .business {
+        padding-top: 30px;
+    }
+
+    .business .portfolio-list {
+        margin-bottom: 20px;
+        margin-inline: 10px;
+    }
+
+    .business .portfolio-list .portfolio-image {
+        height: 200px;
+    }
+
+    .business .portfolio-list .portfolio-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .business .portfolio-list .portfolio-text a {
+        font-size: var(--font-mobile-nav);
+    }
+
+    .faq .faq-list .faq-item h4 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .faq .faq-list .faq-ans {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .faq .faq-list .faq-ans p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .faq .faq-button .faq-btn-block .btn-custom {
+        flex: 100%;
+    }
+
+    .faq .faq-button {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .faq .image {
+        height: 200px;
+    }
+
+    .navbar-brand {
+        padding: 10px;
+    }
+
+    .hero .bg .overlay {
+        height: 50vh;
+    }
+
+    .hero .bg .overlay h1 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .hero .bg .overlay p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .hero .bg .overlay .hero-link a.hero-portfolio {
+        font-size: var(--font-mobile-nav);
+    }
+
+    .hero .bg .overlay .hero-link {
+        gap: 20px;
+    }
+
+    .notice .bg-left {
+        padding-block: 35px;
+    }
+
+    .notice .bg-left h2 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .notice .notice-list .notice-item {
+        gap: 20px;
+    }
+
+    .notice .notice-list .notice-item p,
+    .notice .notice-list .notice-item a {
+        font-size: var(--font-mobile-para);
+    }
+
+    .notice .mobile-center {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .notice .notice-list {
+        padding-block: 25px;
+    }
+
+    .greetings {
+        padding: 30px;
+    }
+
+    .greetings .greeting-text h2 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .greetings .greeting-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .description {
+        padding-block: 30px;
+    }
+
+    .description .description-item {
+        padding-top: 30px;
+    }
+
+    .description h2 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .description .description-list .list-text h3 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .description .description-list .list-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .description a {
+        font-variant: var(--font-mobile-nav);
+    }
+
+    .portfolio {
+        padding-block: 30px;
+    }
+
+    .portfolio h2 {
+        font-size: var(--font-mobile-h1);
+        padding-bottom: 30px;
+    }
+
+    .portfolio .portfolio-list {
+        margin-bottom: 20px;
+        margin-inline: 10px;
+    }
+
+    .portfolio .portfolio-list .portfolio-image {
+        height: 160px;
+    }
+
+    .portfolio .portfolio-list .portfolio-text h3 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .portfolio .portfolio-list .portfolio-text h5 {
+        font-size: var(--font-mobile-nav);
+    }
+
+    .portfolio .portfolio-list .portfolio-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .portfolio a {
+        font-size: var(--font-mobile-nav);
+        margin-top: 20px;
+    }
+
+    .job .job-text {
+        padding: 20px;
+    }
+
+    .job .job-text h4 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .job .job-text h5 {
+        font-size: var(--font-mobile-nav);
+    }
+
+    .job .job-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .job a {
+        font-size: var(--font-mobile-nav);
+        margin-top: 20px;
+    }
+
+    .contact h3 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .contact p {
+        font-size: var(--font-mobile-nav);
+    }
+
+    .contact h5 {
+        font-size: 26px;
+        margin-block: 10px;
+    }
+
+    .contact h5 i {
+        font-size: 26px;
+    }
+
+    .contact h6 {
+        font-size: 12px;
+    }
+
+    .contact a {
+        margin-top: 20px;
+        font-size: var(--font-mobile-nav);
+    }
+
+    .route {
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .philosophy .philosophy-text {
+        padding-block: 20px;
+    }
+
+    .philosophy .philosophy-text h2 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .philosophy .philosophy-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .company-profile h2 {
+        padding-bottom: 40px;
+        font-size: var(--font-mobile-h1);
+    }
+
+    .company-profile {
+        padding-block: 30px;
+    }
+
+    .company-profile-list .profile-item .left p,
+    .company-profile-list .profile-item .right p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .access h2 {
+        font-size: var(--font-mobile-h1);
+        padding-block: 20px;
+    }
+
+    .map {
+        height: 200px;
+    }
+
+    .job .job-image {
+        height: 200px;
+    }
+
+    .business {
+        padding-top: 30px;
+    }
+
+    .business .portfolio-list {
+        margin-bottom: 20px;
+        margin-inline: 10px;
+    }
+
+    .business .portfolio-list .portfolio-image {
+        height: 200px;
+    }
+
+    .business .portfolio-list .portfolio-text p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .business .portfolio-list .portfolio-text a {
+        font-size: var(--font-mobile-nav);
+    }
+
+    .faq .faq-list .faq-item h4 {
+        font-size: var(--font-mobile-h1);
+    }
+
+    .faq .faq-list .faq-ans {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .faq .faq-list .faq-ans p {
+        font-size: var(--font-mobile-para);
+    }
+
+    .faq .faq-button .faq-btn-block .btn-custom {
+        flex: 100%;
+    }
+
+    .faq .faq-button {
+        padding-top: 10px;
+    }
+}
