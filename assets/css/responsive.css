@@ -11,10 +11,18 @@
 
 @media only screen and (max-width: 575px) {
 
+    .description .description-list .list-image img {
+        top: 0;
+    }
+
     .navbar {
         padding: 10px;
         padding-block: 0px;
         background: rgba(0, 26, 43, .9);
+    }
+
+    .navbar-collapse {
+        padding-bottom: 10px;
     }
 
     .navbar ul li a {
@@ -282,16 +290,35 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+    .description .description-list .list-image img {
+        top: 0;
+    }
+
+    .navbar {
+        padding: 10px;
+        padding-block: 0px;
+        background: rgba(0, 26, 43, .9);
+    }
+
+    .navbar-collapse {
+        padding-bottom: 10px;
+    }
+
+    .navbar ul li a {
+        padding-block: 10px;
+    }
+
     .faq .image {
         height: 200px;
     }
 
     .navbar-brand {
-        padding: 10px;
+        padding: 0px;
     }
 
     .hero .bg .overlay {
-        height: 50vh;
+        height: 75vh;
     }
 
     .hero .bg .overlay h1 {
@@ -543,16 +570,35 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    .description .description-list .list-image img {
+        top: 0;
+    }
+
+    .navbar {
+        padding: 10px;
+        padding-block: 0px;
+        background: rgba(0, 26, 43, .9);
+    }
+
+    .navbar-collapse {
+        padding-bottom: 10px;
+    }
+
+    .navbar ul li a {
+        padding-block: 10px;
+    }
+
     .faq .image {
         height: 200px;
     }
 
     .navbar-brand {
-        padding: 10px;
+        padding: 0px;
     }
 
     .hero .bg .overlay {
-        height: 50vh;
+        height: 75vh;
     }
 
     .hero .bg .overlay h1 {
